@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972508522294" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972508522294';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -853,9 +853,9 @@
       <!-- Crown Ornament -->
       <div class="about-author-portrait-ornament" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 80 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M40 2 L44 12 L54 14 L44 16 L40 26 L36 16 L26 14 L36 12 Z" fill="#C9A84C" opacity="0.8"/>
-          <path d="M10 15 L40 15" stroke="#C9A84C" stroke-width="1" opacity="0.5"/>
-          <path d="M70 15 L40 15" stroke="#C9A84C" stroke-width="1" opacity="0.5"/>
+          <path d="M40 2 L44 12 L54 14 L44 16 L40 26 L36 16 L26 14 L36 12 Z" fill="#C9A84C" opacity="0.8"></path>
+          <path d="M10 15 L40 15" stroke="#C9A84C" stroke-width="1" opacity="0.5"></path>
+          <path d="M70 15 L40 15" stroke="#C9A84C" stroke-width="1" opacity="0.5"></path>
         </svg>
       </div>
 
@@ -863,9 +863,9 @@
       
       <div class="about-author-portrait-divider" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="5" x2="90" y2="5" stroke="#C9A84C" stroke-width="1" opacity="0.7"/>
-          <circle cx="100" cy="5" r="2" fill="#C9A84C" opacity="0.7"/>
-          <line x1="110" y1="5" x2="200" y2="5" stroke="#C9A84C" stroke-width="1" opacity="0.7"/>
+          <line x1="0" y1="5" x2="90" y2="5" stroke="#C9A84C" stroke-width="1" opacity="0.7"></line>
+          <circle cx="100" cy="5" r="2" fill="#C9A84C" opacity="0.7"></circle>
+          <line x1="110" y1="5" x2="200" y2="5" stroke="#C9A84C" stroke-width="1" opacity="0.7"></line>
         </svg>
       </div>
 
@@ -892,9 +892,9 @@
       <h2>האור שמנחה את דרכי</h2>
       <div class="values-divider" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 12" width="200" height="12" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="6" x2="85" y2="6" stroke="currentColor" stroke-width="1"/>
-          <polygon points="100,2 108,6 100,10 92,6" fill="currentColor"/>
-          <line x1="115" y1="6" x2="200" y2="6" stroke="currentColor" stroke-width="1"/>
+          <line x1="0" y1="6" x2="85" y2="6" stroke="currentColor" stroke-width="1"></line>
+          <polygon points="100,2 108,6 100,10 92,6" fill="currentColor"></polygon>
+          <line x1="115" y1="6" x2="200" y2="6" stroke="currentColor" stroke-width="1"></line>
         </svg>
       </div>
       <p>כל סיפור שנולד תחת ידיי טבול בערכים שהופכים מילים לעולם מלא קסם, השראה ורוך. אלה הם עמודי התווך של הכתיבה שלי, ושל כל מה שעתיד לצמוח ממנה.</p>
@@ -907,8 +907,8 @@
       <article class="value-card">
         <div class="value-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M16,26 L22,32 L34,18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
+            <path d="M16,26 L22,32 L34,18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3>איכות ללא פשרות</h3>
@@ -919,11 +919,11 @@
       <article class="value-card">
         <div class="value-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M16,24 L16,32 M24,16 L24,32 M32,20 L32,32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-            <circle cx="16" cy="20" r="2" fill="currentColor"/>
-            <circle cx="24" cy="12" r="2" fill="currentColor"/>
-            <circle cx="32" cy="16" r="2" fill="currentColor"/>
+            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
+            <path d="M16,24 L16,32 M24,16 L24,32 M32,20 L32,32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            <circle cx="16" cy="20" r="2" fill="currentColor"></circle>
+            <circle cx="24" cy="12" r="2" fill="currentColor"></circle>
+            <circle cx="32" cy="16" r="2" fill="currentColor"></circle>
           </svg>
         </div>
         <h3>השראה שמרווה נשמות</h3>
@@ -934,8 +934,8 @@
       <article class="value-card">
         <div class="value-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M16,20 C16,16 20,12 24,16 C28,12 32,16 32,20 C32,26 24,34 24,34 C24,34 16,26 16,20 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
+            <path d="M16,20 C16,16 20,12 24,16 C28,12 32,16 32,20 C32,26 24,34 24,34 C24,34 16,26 16,20 Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3>רוך ועדינות</h3>
@@ -946,9 +946,9 @@
       <article class="value-card">
         <div class="value-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/>
-            <path d="M24,8 L24,14 M24,34 L24,40 M8,24 L14,24 M34,24 L40,24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
+            <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+            <path d="M24,8 L24,14 M24,34 L24,40 M8,24 L14,24 M34,24 L40,24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3>נצחיות</h3>
@@ -1021,12 +1021,12 @@
   <!-- Decorative Quill Background Element -->
   <div class="about-creative-process-section__quill-decoration" aria-hidden="true">
     <svg data-no-icon-edit="true" viewBox="0 0 120 280" xmlns="http://www.w3.org/2000/svg">
-      <path d="M60,20 C30,40 10,80 15,140 C18,180 25,210 35,240 C40,255 45,268 48,275 L52,275 C55,268 58,258 60,245 C65,215 70,175 85,140 C100,105 110,70 105,40 C100,20 85,15 60,20 Z" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.35"/>
-      <path d="M60,20 C65,25 68,35 65,45" fill="none" stroke="var(--secondary)" stroke-width="1.2" opacity="0.3"/>
-      <path d="M55,30 L58,50" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.2"/>
-      <path d="M70,35 L72,55" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.2"/>
-      <ellipse cx="60" cy="275" rx="18" ry="6" fill="var(--secondary)" opacity="0.25"/>
-      <ellipse cx="60" cy="275" rx="12" ry="4" fill="var(--secondary)" opacity="0.15"/>
+      <path d="M60,20 C30,40 10,80 15,140 C18,180 25,210 35,240 C40,255 45,268 48,275 L52,275 C55,268 58,258 60,245 C65,215 70,175 85,140 C100,105 110,70 105,40 C100,20 85,15 60,20 Z" fill="none" stroke="var(--secondary)" stroke-width="1.5" opacity="0.35"></path>
+      <path d="M60,20 C65,25 68,35 65,45" fill="none" stroke="var(--secondary)" stroke-width="1.2" opacity="0.3"></path>
+      <path d="M55,30 L58,50" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.2"></path>
+      <path d="M70,35 L72,55" fill="none" stroke="var(--secondary)" stroke-width="1" opacity="0.2"></path>
+      <ellipse cx="60" cy="275" rx="18" ry="6" fill="var(--secondary)" opacity="0.25"></ellipse>
+      <ellipse cx="60" cy="275" rx="12" ry="4" fill="var(--secondary)" opacity="0.15"></ellipse>
     </svg>
   </div>
 </section>
@@ -1036,9 +1036,9 @@
     <!-- Decorative crown ornament above heading -->
     <div class="about-personal-note-section__ornament" aria-hidden="true">
       <svg width="80" height="24" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-        <path d="M40 2 L44 8 L40 6 L36 8 Z" stroke="#C9A84C" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
-        <path d="M4 12 Q40 4 76 12" stroke="#C9A84C" stroke-width="1.2" fill="none"/>
-        <circle cx="40" cy="12" r="2" fill="#C9A84C"/>
+        <path d="M40 2 L44 8 L40 6 L36 8 Z" stroke="#C9A84C" stroke-width="1.2" fill="none" stroke-linejoin="round"></path>
+        <path d="M4 12 Q40 4 76 12" stroke="#C9A84C" stroke-width="1.2" fill="none"></path>
+        <circle cx="40" cy="12" r="2" fill="#C9A84C"></circle>
       </svg>
     </div>
     
@@ -1052,9 +1052,9 @@
         <!-- Decorative flourish rule -->
         <div class="about-personal-note-section__flourish" aria-hidden="true">
           <svg width="200" height="8" viewBox="0 0 200 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="4" x2="90" y2="4" stroke="#C9A84C" stroke-width="1" opacity="0.6"/>
-            <circle cx="100" cy="4" r="2" fill="#C9A84C" opacity="0.8"/>
-            <line x1="110" y1="4" x2="200" y2="4" stroke="#C9A84C" stroke-width="1" opacity="0.6"/>
+            <line x1="0" y1="4" x2="90" y2="4" stroke="#C9A84C" stroke-width="1" opacity="0.6"></line>
+            <circle cx="100" cy="4" r="2" fill="#C9A84C" opacity="0.8"></circle>
+            <line x1="110" y1="4" x2="200" y2="4" stroke="#C9A84C" stroke-width="1" opacity="0.6"></line>
           </svg>
         </div>
         
@@ -1068,7 +1068,7 @@
         <a href="#contact" class="about-personal-note-section__cta">
           <span>כתבי לי</span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6 4 L10 8 L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 4 L10 8 L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
       </div>
@@ -1079,8 +1079,8 @@
         <!-- Decorative quill motif -->
         <div class="about-personal-note-section__quill" aria-hidden="true">
           <svg width="60" height="120" viewBox="0 0 60 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M30 10 C20 30, 10 60, 15 100 C18 110, 22 115, 28 118 C24 100, 26 70, 30 40 C34 60, 36 90, 32 115 C38 112, 42 108, 45 95 C50 60, 40 30, 30 10 Z" stroke="#E8D5A3" stroke-width="1.2" fill="none" opacity="0.6"/>
-            <path d="M30 10 L30 5 M28 8 L32 8" stroke="#E8D5A3" stroke-width="1" opacity="0.6"/>
+            <path d="M30 10 C20 30, 10 60, 15 100 C18 110, 22 115, 28 118 C24 100, 26 70, 30 40 C34 60, 36 90, 32 115 C38 112, 42 108, 45 95 C50 60, 40 30, 30 10 Z" stroke="#E8D5A3" stroke-width="1.2" fill="none" opacity="0.6"></path>
+            <path d="M30 10 L30 5 M28 8 L32 8" stroke="#E8D5A3" stroke-width="1" opacity="0.6"></path>
           </svg>
         </div>
       </div>
@@ -1117,25 +1117,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:lironmoy@gmail.com">lironmoy@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972508522294">+972508522294</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%95%D7%99%D7%A6%D7%9E%D7%9F%2018%2C%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A6%D7%99%D7%95%D7%9F%2C%207528710%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">ויצמן 18, ראשון לציון, 7528710, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1164,7 +1162,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972508522294" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

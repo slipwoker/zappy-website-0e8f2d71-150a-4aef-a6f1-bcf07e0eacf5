@@ -48,7 +48,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: lironmoy@gmail.com
+- Phone: +972508522294
+- Phone (tel): tel:+972508522294
+- Address: ויצמן 18, ראשון לציון, 7528710, ישראל
 
 ### Contact form
 - URL: https://example.com/contact
@@ -56,11 +59,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
+  - `name` (text, required)
+  - `email` (email, required)
   - `phone` (tel)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 

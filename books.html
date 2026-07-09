@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972508522294" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972508522294';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -841,12 +841,12 @@
     <div class="crown-ornament" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" width="80" height="40" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <!-- Flourish left -->
-        <path d="M0 20 Q10 15 20 20 Q30 25 35 20" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+        <path d="M0 20 Q10 15 20 20 Q30 25 35 20" stroke="#C9A84C" stroke-width="1.5" fill="none"></path>
         <!-- Flourish right -->
-        <path d="M80 20 Q70 15 60 20 Q50 25 45 20" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+        <path d="M80 20 Q70 15 60 20 Q50 25 45 20" stroke="#C9A84C" stroke-width="1.5" fill="none"></path>
         <!-- Crown -->
-        <path d="M35 18 L33 8 L36 12 L39 6 L42 12 L45 8 L43 18 Z" fill="#C9A84C"/>
-        <circle cx="39" cy="24" r="1.5" fill="#C9A84C"/>
+        <path d="M35 18 L33 8 L36 12 L39 6 L42 12 L45 8 L43 18 Z" fill="#C9A84C"></path>
+        <circle cx="39" cy="24" r="1.5" fill="#C9A84C"></circle>
       </svg>
     </div>
 
@@ -855,9 +855,9 @@
     <!-- Decorative horizontal rule -->
     <div class="horizontal-rule" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" width="200" height="20" viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="10" x2="90" y2="10" stroke="#C9A84C" stroke-width="1.5" opacity="0.7"/>
-        <circle cx="100" cy="10" r="3" fill="#C9A84C" opacity="0.7"/>
-        <line x1="110" y1="10" x2="200" y2="10" stroke="#C9A84C" stroke-width="1.5" opacity="0.7"/>
+        <line x1="0" y1="10" x2="90" y2="10" stroke="#C9A84C" stroke-width="1.5" opacity="0.7"></line>
+        <circle cx="100" cy="10" r="3" fill="#C9A84C" opacity="0.7"></circle>
+        <line x1="110" y1="10" x2="200" y2="10" stroke="#C9A84C" stroke-width="1.5" opacity="0.7"></line>
       </svg>
     </div>
 
@@ -869,17 +869,17 @@
     <div class="feather-quill" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
         <!-- Ink jar -->
-        <rect x="45" y="140" width="30" height="30" rx="4" fill="none" stroke="#E8D5A3" stroke-width="1.5" opacity="0.55"/>
-        <rect x="52" y="130" width="16" height="15" rx="2" fill="none" stroke="#E8D5A3" stroke-width="1.5" opacity="0.55"/>
+        <rect x="45" y="140" width="30" height="30" rx="4" fill="none" stroke="#E8D5A3" stroke-width="1.5" opacity="0.55"></rect>
+        <rect x="52" y="130" width="16" height="15" rx="2" fill="none" stroke="#E8D5A3" stroke-width="1.5" opacity="0.55"></rect>
         <!-- Quill shaft -->
-        <path d="M60 130 Q58 80 65 30 Q68 10 60 0" stroke="#E8D5A3" stroke-width="2" fill="none" opacity="0.55"/>
+        <path d="M60 130 Q58 80 65 30 Q68 10 60 0" stroke="#E8D5A3" stroke-width="2" fill="none" opacity="0.55"></path>
         <!-- Feather barbs -->
-        <path d="M60 0 Q75 15 65 30" fill="#E8D5A3" opacity="0.35"/>
-        <path d="M60 0 Q45 15 55 30" fill="#E8D5A3" opacity="0.35"/>
-        <path d="M65 30 Q85 50 70 70" fill="#E8D5A3" opacity="0.3"/>
-        <path d="M55 30 Q35 50 50 70" fill="#E8D5A3" opacity="0.3"/>
-        <path d="M70 70 Q95 95 75 115" fill="#E8D5A3" opacity="0.25"/>
-        <path d="M50 70 Q25 95 45 115" fill="#E8D5A3" opacity="0.25"/>
+        <path d="M60 0 Q75 15 65 30" fill="#E8D5A3" opacity="0.35"></path>
+        <path d="M60 0 Q45 15 55 30" fill="#E8D5A3" opacity="0.35"></path>
+        <path d="M65 30 Q85 50 70 70" fill="#E8D5A3" opacity="0.3"></path>
+        <path d="M55 30 Q35 50 50 70" fill="#E8D5A3" opacity="0.3"></path>
+        <path d="M70 70 Q95 95 75 115" fill="#E8D5A3" opacity="0.25"></path>
+        <path d="M50 70 Q25 95 45 115" fill="#E8D5A3" opacity="0.25"></path>
       </svg>
     </div>
   </div>
@@ -892,16 +892,16 @@
       <!-- Crown Ornament -->
       <div class="books-catalog-section__crown-ornament" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 12 L12 20 L20 4 L28 16 L36 2 L44 16 L52 4 L60 20 L68 12 L76 12" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M4 12 L12 20 L20 4 L28 16 L36 2 L44 16 L52 4 L60 20 L68 12 L76 12" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
         </svg>
       </div>
       <h2 class="books-catalog-section__title">הספרים שלי</h2>
       <!-- Horizontal Rule Flourish -->
       <div class="books-catalog-section__hr-flourish" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="6" x2="88" y2="6" stroke="var(--secondary)" stroke-width="1" opacity="0.7"/>
-          <circle cx="100" cy="6" r="2.5" fill="var(--secondary)" opacity="0.7"/>
-          <line x1="112" y1="6" x2="200" y2="6" stroke="var(--secondary)" stroke-width="1" opacity="0.7"/>
+          <line x1="0" y1="6" x2="88" y2="6" stroke="var(--secondary)" stroke-width="1" opacity="0.7"></line>
+          <circle cx="100" cy="6" r="2.5" fill="var(--secondary)" opacity="0.7"></circle>
+          <line x1="112" y1="6" x2="200" y2="6" stroke="var(--secondary)" stroke-width="1" opacity="0.7"></line>
         </svg>
       </div>
       <p class="books-catalog-section__subtitle">כל ספר הוא עולם ומלואו – הזמנה למסע אל תוך הנשמה, בין דפי קסם לילדים, רומן סוחף ומילים שמעוררות השראה.</p>
@@ -1018,8 +1018,8 @@
   <!-- Decorative Feather Quill (Bottom Right) -->
   <div class="books-catalog-section__feather-quill" aria-hidden="true">
     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M60 180 L60 20 M60 20 Q80 10 95 30 Q110 50 100 70 Q90 90 70 85 Q60 82 60 70 L60 180" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.55"/>
-      <path d="M55 185 L65 185 L62 195 L58 195 Z" fill="var(--secondary)" opacity="0.55"/>
+      <path d="M60 180 L60 20 M60 20 Q80 10 95 30 Q110 50 100 70 Q90 90 70 85 Q60 82 60 70 L60 180" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.55"></path>
+      <path d="M55 185 L65 185 L62 195 L58 195 Z" fill="var(--secondary)" opacity="0.55"></path>
     </svg>
   </div>
 </section>
@@ -1030,8 +1030,8 @@
     <header class="books-genres-section__header">
       <div class="books-genres-section__ornament" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
         <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,10 Q10,2 20,10 Q30,18 40,10 Q50,2 60,10 Q70,18 80,10" fill="none" stroke="currentColor" stroke-width="1"/>
-          <path d="M36,10 L40,4 L44,10 L40,16 Z" fill="currentColor" opacity="0.8"/>
+          <path d="M0,10 Q10,2 20,10 Q30,18 40,10 Q50,2 60,10 Q70,18 80,10" fill="none" stroke="currentColor" stroke-width="1"></path>
+          <path d="M36,10 L40,4 L44,10 L40,16 Z" fill="currentColor" opacity="0.8"></path>
         </svg>
       </div>
       <h2 class="books-genres-section__title">הז׳אנרים שלי</h2>
@@ -1046,13 +1046,13 @@
       <article class="books-genres-section__panel">
         <div class="books-genres-section__panel-icon" data-element-type="icon" data-icon-type="svg">
           <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10,38 L10,14 C10,10 14,6 18,6 L30,6 C34,6 38,10 38,14 L38,38 L10,38 Z"/>
-            <path d="M14,38 L14,42 L34,42 L34,38"/>
-            <path d="M18,14 L30,14"/>
-            <path d="M18,20 L30,20"/>
-            <path d="M20,26 L28,26"/>
-            <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/>
-            <circle cx="38" cy="10" r="2" fill="currentColor" opacity="0.2"/>
+            <path d="M10,38 L10,14 C10,10 14,6 18,6 L30,6 C34,6 38,10 38,14 L38,38 L10,38 Z"></path>
+            <path d="M14,38 L14,42 L34,42 L34,38"></path>
+            <path d="M18,14 L30,14"></path>
+            <path d="M18,20 L30,20"></path>
+            <path d="M20,26 L28,26"></path>
+            <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"></circle>
+            <circle cx="38" cy="10" r="2" fill="currentColor" opacity="0.2"></circle>
           </svg>
         </div>
         <h3 class="books-genres-section__panel-title">ספרי ילדים</h3>
@@ -1064,10 +1064,10 @@
       <article class="books-genres-section__panel">
         <div class="books-genres-section__panel-icon" data-element-type="icon" data-icon-type="svg">
           <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M24,40 C24,40 8,30 8,18 C8,11 13,6 19,8 C21,9 23,11 24,14 C25,11 27,9 29,8 C35,6 40,11 40,18 C40,30 24,40 24,40 Z"/>
-            <path d="M24,40 C24,40 40,30 40,18" opacity="0.3"/>
-            <circle cx="14" cy="16" r="1.5" fill="currentColor" opacity="0.4"/>
-            <circle cx="34" cy="14" r="1" fill="currentColor" opacity="0.3"/>
+            <path d="M24,40 C24,40 8,30 8,18 C8,11 13,6 19,8 C21,9 23,11 24,14 C25,11 27,9 29,8 C35,6 40,11 40,18 C40,30 24,40 24,40 Z"></path>
+            <path d="M24,40 C24,40 40,30 40,18" opacity="0.3"></path>
+            <circle cx="14" cy="16" r="1.5" fill="currentColor" opacity="0.4"></circle>
+            <circle cx="34" cy="14" r="1" fill="currentColor" opacity="0.3"></circle>
           </svg>
         </div>
         <h3 class="books-genres-section__panel-title">רומנים</h3>
@@ -1079,14 +1079,14 @@
       <article class="books-genres-section__panel">
         <div class="books-genres-section__panel-icon" data-element-type="icon" data-icon-type="svg">
           <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M24,6 L24,22"/>
-            <path d="M24,22 C20,18 14,16 10,18 C6,20 6,26 10,28 C14,30 20,26 24,22"/>
-            <path d="M24,22 C28,18 34,16 38,18 C42,20 42,26 38,28 C34,30 28,26 24,22"/>
-            <path d="M24,22 L24,38"/>
-            <circle cx="24" cy="40" r="2" fill="currentColor" opacity="0.5"/>
-            <path d="M16,38 L32,38" opacity="0.4"/>
-            <circle cx="10" cy="8" r="2" fill="currentColor" opacity="0.2"/>
-            <circle cx="38" cy="6" r="1.5" fill="currentColor" opacity="0.2"/>
+            <path d="M24,6 L24,22"></path>
+            <path d="M24,22 C20,18 14,16 10,18 C6,20 6,26 10,28 C14,30 20,26 24,22"></path>
+            <path d="M24,22 C28,18 34,16 38,18 C42,20 42,26 38,28 C34,30 28,26 24,22"></path>
+            <path d="M24,22 L24,38"></path>
+            <circle cx="24" cy="40" r="2" fill="currentColor" opacity="0.5"></circle>
+            <path d="M16,38 L32,38" opacity="0.4"></path>
+            <circle cx="10" cy="8" r="2" fill="currentColor" opacity="0.2"></circle>
+            <circle cx="38" cy="6" r="1.5" fill="currentColor" opacity="0.2"></circle>
           </svg>
         </div>
         <h3 class="books-genres-section__panel-title">השראה וכתבים עתידיים</h3>
@@ -1102,9 +1102,9 @@
   <div class="books-inquiry-cta-section__container">
     <div class="books-inquiry-cta-section__ornament" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 20" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="10" x2="80" y2="10" stroke="currentColor" stroke-width="1"/>
-        <circle cx="100" cy="10" r="2.5" fill="currentColor"/>
-        <line x1="120" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="1"/>
+        <line x1="0" y1="10" x2="80" y2="10" stroke="currentColor" stroke-width="1"></line>
+        <circle cx="100" cy="10" r="2.5" fill="currentColor"></circle>
+        <line x1="120" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="1"></line>
       </svg>
     </div>
     <h2 class="books-inquiry-cta-section__heading">בואו נדבר על הקסם שבמילים</h2>
@@ -1112,11 +1112,11 @@
     <a href="/contact" class="books-inquiry-cta-section__cta">צרו קשר עוד היום</a>
     <div class="books-inquiry-cta-section__quill" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M60 30 C45 10 25 0 10 20 C-5 40 15 70 30 90 C45 110 55 140 60 170 L60 220" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"/>
-        <path d="M60 30 C60 15 65 5 75 8 C85 11 80 25 75 35" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"/>
-        <path d="M40 40 L60 30 L50 55 Z" fill="currentColor" opacity="0.15"/>
-        <rect x="52" y="215" width="16" height="25" rx="2" fill="currentColor" opacity="0.3"/>
-        <ellipse cx="60" cy="240" rx="12" ry="4" fill="currentColor" opacity="0.2"/>
+        <path d="M60 30 C45 10 25 0 10 20 C-5 40 15 70 30 90 C45 110 55 140 60 170 L60 220" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"></path>
+        <path d="M60 30 C60 15 65 5 75 8 C85 11 80 25 75 35" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"></path>
+        <path d="M40 40 L60 30 L50 55 Z" fill="currentColor" opacity="0.15"></path>
+        <rect x="52" y="215" width="16" height="25" rx="2" fill="currentColor" opacity="0.3"></rect>
+        <ellipse cx="60" cy="240" rx="12" ry="4" fill="currentColor" opacity="0.2"></ellipse>
       </svg>
     </div>
   </div>
@@ -1150,25 +1150,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:lironmoy@gmail.com">lironmoy@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972508522294">+972508522294</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%95%D7%99%D7%A6%D7%9E%D7%9F%2018%2C%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A6%D7%99%D7%95%D7%9F%2C%207528710%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">ויצמן 18, ראשון לציון, 7528710, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1197,7 +1195,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972508522294" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

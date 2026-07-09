@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972508522294" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972508522294';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -840,11 +840,11 @@
     <!-- Crown Ornament -->
     <div class="contact-contact-intro-section__crown-ornament" aria-hidden="true">
       <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5,35 Q10,20 20,28 Q25,10 40,18 Q55,10 60,28 Q70,20 75,35" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
-        <line x1="15" y1="35" x2="15" y2="38" stroke="#C9A84C" stroke-width="1.5"/>
-        <line x1="40" y1="35" x2="40" y2="38" stroke="#C9A84C" stroke-width="1.5"/>
-        <line x1="65" y1="35" x2="65" y2="38" stroke="#C9A84C" stroke-width="1.5"/>
-        <path d="M0,38 Q20,30 40,38 Q60,30 80,38" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+        <path d="M5,35 Q10,20 20,28 Q25,10 40,18 Q55,10 60,28 Q70,20 75,35" stroke="#C9A84C" stroke-width="1.5" fill="none"></path>
+        <line x1="15" y1="35" x2="15" y2="38" stroke="#C9A84C" stroke-width="1.5"></line>
+        <line x1="40" y1="35" x2="40" y2="38" stroke="#C9A84C" stroke-width="1.5"></line>
+        <line x1="65" y1="35" x2="65" y2="38" stroke="#C9A84C" stroke-width="1.5"></line>
+        <path d="M0,38 Q20,30 40,38 Q60,30 80,38" stroke="#C9A84C" stroke-width="1.5" fill="none"></path>
       </svg>
     </div>
 
@@ -854,9 +854,9 @@
     <!-- Gold Divider -->
     <div class="contact-contact-intro-section__divider" aria-hidden="true">
       <svg viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="6" x2="85" y2="6" stroke="#C9A84C" stroke-width="1"/>
-        <circle cx="100" cy="6" r="2.5" fill="#C9A84C"/>
-        <line x1="115" y1="6" x2="200" y2="6" stroke="#C9A84C" stroke-width="1"/>
+        <line x1="0" y1="6" x2="85" y2="6" stroke="#C9A84C" stroke-width="1"></line>
+        <circle cx="100" cy="6" r="2.5" fill="#C9A84C"></circle>
+        <line x1="115" y1="6" x2="200" y2="6" stroke="#C9A84C" stroke-width="1"></line>
       </svg>
     </div>
 
@@ -869,12 +869,12 @@
   <div class="contact-contact-intro-section__feather-decoration" aria-hidden="true">
     <svg viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Ink Jar -->
-      <rect x="45" y="140" width="30" height="35" rx="4" stroke="#E8D5A3" stroke-width="1.5" fill="none"/>
-      <ellipse cx="60" cy="140" rx="15" ry="4" stroke="#E8D5A3" stroke-width="1.5" fill="none"/>
-      <line x1="50" y1="148" x2="70" y2="148" stroke="#E8D5A3" stroke-width="1"/>
+      <rect x="45" y="140" width="30" height="35" rx="4" stroke="#E8D5A3" stroke-width="1.5" fill="none"></rect>
+      <ellipse cx="60" cy="140" rx="15" ry="4" stroke="#E8D5A3" stroke-width="1.5" fill="none"></ellipse>
+      <line x1="50" y1="148" x2="70" y2="148" stroke="#E8D5A3" stroke-width="1"></line>
       <!-- Quill -->
-      <path d="M60,140 Q58,100 40,40 Q35,20 25,15 Q35,30 45,40 Q55,30 60,20 Q62,40 60,60 Q58,80 60,100 Q62,120 60,140" stroke="#E8D5A3" stroke-width="1.5" fill="none"/>
-      <line x1="60" y1="140" x2="60" y2="100" stroke="#E8D5A3" stroke-width="1.5"/>
+      <path d="M60,140 Q58,100 40,40 Q35,20 25,15 Q35,30 45,40 Q55,30 60,20 Q62,40 60,60 Q58,80 60,100 Q62,120 60,140" stroke="#E8D5A3" stroke-width="1.5" fill="none"></path>
+      <line x1="60" y1="140" x2="60" y2="100" stroke="#E8D5A3" stroke-width="1.5"></line>
     </svg>
   </div>
 </section>
@@ -889,18 +889,18 @@
       <div class="contact-contact-form-section__header">
         <div class="contact-contact-form-section__crown-ornament" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 80 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 20 Q10 10 16 20 Q22 10 28 20 Q34 10 40 20 Q46 10 52 20 Q58 10 64 20 Q70 10 76 20" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M38 2 L40 8 L42 2" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
-            <path d="M36 8 L40 20 L44 8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+            <path d="M4 20 Q10 10 16 20 Q22 10 28 20 Q34 10 40 20 Q46 10 52 20 Q58 10 64 20 Q70 10 76 20" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+            <path d="M38 2 L40 8 L42 2" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"></path>
+            <path d="M36 8 L40 20 L44 8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h2 class="contact-contact-form-section__title">צרי קשר</h2>
         <p class="contact-contact-form-section__subtitle">אני מזמינה אותך לכתוב לי מכל הלב — על ספרים, רעיונות, שיתופי פעולה או סתם מילה טובה</p>
         <div class="contact-contact-form-section__rule" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="6" x2="90" y2="6" stroke="currentColor" stroke-width="1"/>
-            <circle cx="100" cy="6" r="2.5" fill="currentColor"/>
-            <line x1="110" y1="6" x2="200" y2="6" stroke="currentColor" stroke-width="1"/>
+            <line x1="0" y1="6" x2="90" y2="6" stroke="currentColor" stroke-width="1"></line>
+            <circle cx="100" cy="6" r="2.5" fill="currentColor"></circle>
+            <line x1="110" y1="6" x2="200" y2="6" stroke="currentColor" stroke-width="1"></line>
           </svg>
         </div>
       </div>
@@ -910,28 +910,28 @@
         
         <div class="contact-contact-form-section__field-group">
           <label for="contact-name" class="contact-contact-form-section__label">שם מלא</label>
-          <input type="text" id="contact-name" name="name" class="contact-contact-form-section__input" placeholder="השם שלך" required>
+          <input type="text" id="contact-name" name="name" class="contact-contact-form-section__input" placeholder="השם שלך" required="">
         </div>
 
         <div class="contact-contact-form-section__field-group">
           <label for="contact-email" class="contact-contact-form-section__label">דוא״ל</label>
-          <input type="email" id="contact-email" name="email" class="contact-contact-form-section__input" placeholder="[business_email]" required>
+          <input type="email" id="contact-email" name="email" class="contact-contact-form-section__input" placeholder="lironmoy@gmail.com" required="">
         </div>
 
         <div class="contact-contact-form-section__field-group">
           <label for="contact-phone" class="contact-contact-form-section__label">טלפון</label>
-          <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-section__input" placeholder="[business_phone]">
+          <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-section__input" placeholder="+972508522294">
         </div>
 
         <div class="contact-contact-form-section__field-group">
           <label for="contact-message" class="contact-contact-form-section__label">הודעה</label>
-          <textarea id="contact-message" name="message" class="contact-contact-form-section__textarea" rows="5" placeholder="מה תרצי לספר לי?" required></textarea>
+          <textarea id="contact-message" name="message" class="contact-contact-form-section__textarea" rows="5" placeholder="מה תרצי לספר לי?" required=""></textarea>
         </div>
 
         <!-- Privacy Consent -->
         <div class="contact-contact-form-section__privacy privacy-consent">
           <label class="contact-contact-form-section__privacy-label privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="contact-contact-form-section__privacy-checkbox privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="contact-contact-form-section__privacy-checkbox privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
@@ -947,10 +947,10 @@
         <!-- Quill Decoration -->
         <div class="contact-contact-form-section__quill-decoration" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 60 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M30 10 C20 40 10 80 15 130 C17 150 18 160 15 175" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-            <path d="M30 10 C35 30 45 60 42 100 C40 120 38 140 35 160" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-            <line x1="15" y1="175" x2="45" y2="175" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <rect x="10" y="170" width="40" height="15" rx="3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            <path d="M30 10 C20 40 10 80 15 130 C17 150 18 160 15 175" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
+            <path d="M30 10 C35 30 45 60 42 100 C40 120 38 140 35 160" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
+            <line x1="15" y1="175" x2="45" y2="175" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <rect x="10" y="170" width="40" height="15" rx="3" stroke="currentColor" stroke-width="1.5" fill="none"></rect>
           </svg>
         </div>
 
@@ -965,8 +965,8 @@
           <ul class="contact-contact-form-section__info-list">
             <li class="contact-contact-form-section__info-item">
               <svg class="contact-contact-form-section__info-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
               <div>
                 <strong class="contact-contact-form-section__info-label">פניות ספרותיות והוצאה לאור</strong>
@@ -975,10 +975,10 @@
             </li>
             <li class="contact-contact-form-section__info-item">
               <svg class="contact-contact-form-section__info-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17 21V19C17 16.7909 15.2091 15 13 15H5C2.79086 15 1 16.7909 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
-                <path d="M23 21V19C22.9986 17.1771 21.765 15.5857 20 15.13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M16 3.13C17.7699 3.58314 19.0078 5.17767 19.0078 7.005C19.0078 8.83233 17.7699 10.4269 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 21V19C17 16.7909 15.2091 15 13 15H5C2.79086 15 1 16.7909 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"></circle>
+                <path d="M23 21V19C22.9986 17.1771 21.765 15.5857 20 15.13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16 3.13C17.7699 3.58314 19.0078 5.17767 19.0078 7.005C19.0078 8.83233 17.7699 10.4269 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
               <div>
                 <strong class="contact-contact-form-section__info-label">שיתופי פעולה והרצאות</strong>
@@ -987,7 +987,7 @@
             </li>
             <li class="contact-contact-form-section__info-item">
               <svg class="contact-contact-form-section__info-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69365 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69365 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.1283 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.06211 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.61V4.61Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69365 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69365 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.1283 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22248 22.4518 8.5C22.4518 7.77752 22.3095 7.06211 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.61V4.61Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
               <div>
                 <strong class="contact-contact-form-section__info-label">מכתבי קוראים</strong>
@@ -996,8 +996,8 @@
             </li>
             <li class="contact-contact-form-section__info-item">
               <svg class="contact-contact-form-section__info-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
               <div>
                 <strong class="contact-contact-form-section__info-label">מדיה ויחסי ציבור</strong>
@@ -1017,9 +1017,9 @@
     <div class="guidance-header">
       <div class="guidance-ornament" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="12" x2="80" y2="12" stroke="#C9A84C" stroke-width="1.5"/>
-          <circle cx="100" cy="12" r="3" fill="#C9A84C"/>
-          <line x1="120" y1="12" x2="200" y2="12" stroke="#C9A84C" stroke-width="1.5"/>
+          <line x1="0" y1="12" x2="80" y2="12" stroke="#C9A84C" stroke-width="1.5"></line>
+          <circle cx="100" cy="12" r="3" fill="#C9A84C"></circle>
+          <line x1="120" y1="12" x2="200" y2="12" stroke="#C9A84C" stroke-width="1.5"></line>
         </svg>
       </div>
       <h2 class="guidance-title">על מה תרצי לכתוב לי?</h2>
@@ -1030,10 +1030,10 @@
       <article class="guidance-card">
         <div class="guidance-card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="guidance-card-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 6H28V26H4V6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            <path d="M4 10H28" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M10 14L14 18L10 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M18 22H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M4 6H28V26H4V6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+            <path d="M4 10H28" stroke="currentColor" stroke-width="1.5"></path>
+            <path d="M10 14L14 18L10 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18 22H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="guidance-card-title">הספרים שלי</h3>
@@ -1043,8 +1043,8 @@
       <article class="guidance-card">
         <div class="guidance-card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="guidance-card-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 6C16 6 8 12 8 18C8 22.4183 11.5817 26 16 26C20.4183 26 24 22.4183 24 18C24 12 16 6 16 6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-            <circle cx="16" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M16 6C16 6 8 12 8 18C8 22.4183 11.5817 26 16 26C20.4183 26 24 22.4183 24 18C24 12 16 6 16 6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+            <circle cx="16" cy="18" r="3" stroke="currentColor" stroke-width="1.5"></circle>
           </svg>
         </div>
         <h3 class="guidance-card-title">שיתופי פעולה</h3>
@@ -1054,10 +1054,10 @@
       <article class="guidance-card">
         <div class="guidance-card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="guidance-card-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4V28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M4 16H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M8 8L24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M24 8L8 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16 4V28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M4 16H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M8 8L24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M24 8L8 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="guidance-card-title">התעדכנות ועדכונים</h3>
@@ -1072,10 +1072,10 @@
     <!-- Crown ornament -->
     <div class="contact-closing-quote-section__ornament" aria-hidden="true">
       <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M40 8 L44 16 L52 18 L44 20 L40 28 L36 20 L28 18 L36 16 Z" stroke="var(--secondary)" stroke-width="1.5" fill="none"/>
-        <line x1="16" y1="18" x2="28" y2="18" stroke="var(--secondary)" stroke-width="1"/>
-        <line x1="52" y1="18" x2="64" y2="18" stroke="var(--secondary)" stroke-width="1"/>
-        <circle cx="40" cy="18" r="2" fill="var(--secondary)"/>
+        <path d="M40 8 L44 16 L52 18 L44 20 L40 28 L36 20 L28 18 L36 16 Z" stroke="var(--secondary)" stroke-width="1.5" fill="none"></path>
+        <line x1="16" y1="18" x2="28" y2="18" stroke="var(--secondary)" stroke-width="1"></line>
+        <line x1="52" y1="18" x2="64" y2="18" stroke="var(--secondary)" stroke-width="1"></line>
+        <circle cx="40" cy="18" r="2" fill="var(--secondary)"></circle>
       </svg>
     </div>
 
@@ -1127,25 +1127,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:lironmoy@gmail.com">lironmoy@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972508522294">+972508522294</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%95%D7%99%D7%A6%D7%9E%D7%9F%2018%2C%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A6%D7%99%D7%95%D7%9F%2C%207528710%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">ויצמן 18, ראשון לציון, 7528710, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1174,7 +1172,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972508522294" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
