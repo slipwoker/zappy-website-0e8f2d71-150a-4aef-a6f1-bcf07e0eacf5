@@ -1,0 +1,87 @@
+# The light inside — Generative Engine Optimization Map
+
+> A luxury, regal, and elegant personal brand website for a female author who writes children's books, romance novels, and more. The brand exudes sophistication, inspiration, and soulfulness — designed to feel like a sanctuary that nourishes every soul. The aesthetic vision is clean-lined and majestic, evoking quality and timelessness. Future plans include a podcast and additional products, positioning the author as a multi-dimensional creative voice.
+
+---
+
+## Pages
+
+### בית
+https://the-light-inside-0e8f2d71.zappy5.app
+ברוכה הבאה אל מקדש מילים של סופרת נשמה. כאן מתעוררים לחיים סיפורי ילדים קסומים ורומנים סוחפים. היכנסי לעולם של השראה, יופי ונצחיות.
+
+### ספרים
+https://the-light-inside-0e8f2d71.zappy5.app/books
+גלי אוסף מהודר של סיפורי ילדים מנצנצים ורומנים סוחפים פרי עטה של הסופרת. כל ספר הוא מסע פנימי. בחרי את הסיפור שיאיר את יומך עוד היום.
+
+### אודות
+https://the-light-inside-0e8f2d71.zappy5.app/about
+מסעה האישי של יוצרת רב-ממדית שכותבת לעומק הלב. גלי את הסיפור שמאחורי הסיפורים, חזון ההוצאה לאור והתשוקה להאיר נשמות דרך מילים.
+
+### עולם יצירתי
+https://the-light-inside-0e8f2d71.zappy5.app/creative-world
+מעבר לספרים מחכה לך יקום שלם של השראה: פודקאסטים מעמיקים, מוצרים מפנקים ותכנים בלעדיים. הצטרפי למסע הרב-חושי של האור שבפנים.
+
+### צור קשר
+https://the-light-inside-0e8f2d71.zappy5.app/contact
+מוכנה לשתף פעולה, להרצות או סתם לומר שלום? מלאי את הפרטים ונחזור אלייך בהקדם. בואי ניצור יחד קסם אמיתי שייגע בלבבות.
+
+### תודה רבה | The light inside
+https://the-light-inside-0e8f2d71.zappy5.app/thank-you
+תודה שפנית אל The light inside. פנייתך התקבלה בהצלחה ונחזור אליך בהקדם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://the-light-inside-0e8f2d71.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://the-light-inside-0e8f2d71.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://the-light-inside-0e8f2d71.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://the-light-inside-0e8f2d71.zappy5.app/contact
+- Endpoint: https://the-light-inside-0e8f2d71.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About The light inside
+A luxury, regal, and elegant personal brand website for a female author who writes children's books, romance novels, and more. The brand exudes sophistication, inspiration, and soulfulness — designed to feel like a sanctuary that nourishes every soul. The aesthetic vision is clean-lined and majestic, evoking quality and timelessness. Future plans include a podcast and additional products, positioning the author as a multi-dimensional creative voice.
+
+## Target Audience
+- כל אחד המחפש השראה, קוראי ספרי ילדים, קוראי רומנים
+- מחפשי השראה
+- קוראי ספרי ילדים
+- קוראי רומנים
+
+## Industry
+Author / Publishing
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://the-light-inside-0e8f2d71.zappy5.app/sitemap.xml
+- Robots: https://the-light-inside-0e8f2d71.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://the-light-inside-0e8f2d71.zappy5.app/llms-full.txt
