@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://the-light-inside-0e8f2d71.zappy5.app/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

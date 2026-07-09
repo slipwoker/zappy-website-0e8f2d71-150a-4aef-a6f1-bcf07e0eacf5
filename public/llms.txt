@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://the-light-inside-0e8f2d71.zappy5.app
+https://example.com
 ברוכה הבאה אל מקדש מילים של סופרת נשמה. כאן מתעוררים לחיים סיפורי ילדים קסומים ורומנים סוחפים. היכנסי לעולם של השראה, יופי ונצחיות.
 
 ### ספרים
-https://the-light-inside-0e8f2d71.zappy5.app/books
+https://example.com/books
 גלי אוסף מהודר של סיפורי ילדים מנצנצים ורומנים סוחפים פרי עטה של הסופרת. כל ספר הוא מסע פנימי. בחרי את הסיפור שיאיר את יומך עוד היום.
 
 ### אודות
-https://the-light-inside-0e8f2d71.zappy5.app/about
+https://example.com/about
 מסעה האישי של יוצרת רב-ממדית שכותבת לעומק הלב. גלי את הסיפור שמאחורי הסיפורים, חזון ההוצאה לאור והתשוקה להאיר נשמות דרך מילים.
 
 ### עולם יצירתי
-https://the-light-inside-0e8f2d71.zappy5.app/creative-world
+https://example.com/creative-world
 מעבר לספרים מחכה לך יקום שלם של השראה: פודקאסטים מעמיקים, מוצרים מפנקים ותכנים בלעדיים. הצטרפי למסע הרב-חושי של האור שבפנים.
 
 ### צור קשר
-https://the-light-inside-0e8f2d71.zappy5.app/contact
+https://example.com/contact
 מוכנה לשתף פעולה, להרצות או סתם לומר שלום? מלאי את הפרטים ונחזור אלייך בהקדם. בואי ניצור יחד קסם אמיתי שייגע בלבבות.
 
 ### תודה רבה | The light inside
-https://the-light-inside-0e8f2d71.zappy5.app/thank-you
+https://example.com/thank-you
 תודה שפנית אל The light inside. פנייתך התקבלה בהצלחה ונחזור אליך בהקדם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://the-light-inside-0e8f2d71.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://the-light-inside-0e8f2d71.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://the-light-inside-0e8f2d71.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://the-light-inside-0e8f2d71.zappy5.app/contact
-- Endpoint: https://the-light-inside-0e8f2d71.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -82,6 +82,6 @@ Author / Publishing
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://the-light-inside-0e8f2d71.zappy5.app/sitemap.xml
-- Robots: https://the-light-inside-0e8f2d71.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://the-light-inside-0e8f2d71.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
